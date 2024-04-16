@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    background-color: #edeef0;
+    flex-direction: column;
+    min-height: 100vh; /* Устанавливаем минимальную высоту вьюпорта для body, чтобы занимать всю высоту экрана */
+    margin: 0;
+
+}
+
+.content {
+    flex: 1; /* Растягиваем контент на всю доступную высоту */
+}
+
+.footer {
+    
+    background-color: #333; /* Цвет фона футера */
+    color: #fff; /* Цвет текста */
+    padding: 20px; /* Отступы внутри футера */
+    text-align: left; 
+    line-height: 1.8;
+    /*text-decoration: none;*/
+}
+
+a {
+    color: rgb(48, 193, 87);
+    text-decoration: none;
+}
+
+.container, h2, header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.breed-name {
+    text-align: center; 
+    font-family: 'Arial', sans-serif; 
+    font-size: 20px; 
+    color: #333;
+}
+
+
+
+.img {
+    height: 100%;
+    width: 100%;
+}
+
+.card {
+    max-width: 600px;
+    padding: 16px;
+    background-color: #ffffff ;
+    margin: 16px;
+    box-shadow: 5px 5px 20px grey;
+}
+
+.btn {
+    padding: 8px;
+}
+
+
+.navbar {
+    width: 100%; /* Растягиваем меню на всю ширину экрана */
+    background-color: #333; /* Цвет фона меню */
+    padding: 10px 0; /* Внутренние отступы сверху и снизу */
+    margin: 0; /* Убираем внешние отступы */
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center; /* Выравниваем элементы по центру */
+    padding: 0;
+}
+
+.navbar li {
+    margin-right: 20px; /* Расстояние между пунктами меню */
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff; /* Цвет ссылок */
+}
