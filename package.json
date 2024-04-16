@@ -1,0 +1,12 @@
+{
+  "name": "dog_app",
+  "version": "1.0.0",
+  "description": "A web application to browse dog images randomly",
+  "main": "dogs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Asylkhan Rakhymzhan",
+  "license": "MIT"
+}
